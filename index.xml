@@ -14,7 +14,7 @@
     <managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor>
     <webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 02 Jun 2021 23:36:28 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jun 2021 21:55:36 +0530</lastBuildDate>
     
         <atom:link href="https://gr33nm0nk2802.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,56 @@
         
       
 
+      
+      <item>
+        <title>Sunset 1</title>
+        <link>https://gr33nm0nk2802.github.io/sunset1/</link>
+        <pubDate>Fri, 04 Jun 2021 21:55:36 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        <atom:modified>Fri, 04 Jun 2021 21:55:36 +0530</atom:modified>
+        <guid>https://gr33nm0nk2802.github.io/sunset1/</guid>
+        <description>This is a fairly easy beginner friendly machine which can have some real life scenarios. Here, we have anonymous login enabled and we can download and read files.</description>
+        
+        <dc:creator>m0nk</dc:creator>
+        <media:content url="https://gr33nm0nk2802.github.io/images/vulnhub/sunset1/banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://gr33nm0nk2802.github.io/images/vulnhub/sunset1/banner.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>ftp</category>
+            
+          
+            
+              <category>sudo</category>
+            
+          
+            
+              <category>sha512</category>
+            
+          
+            
+              <category>john</category>
+            
+          
+            
+              <category>gtfobins</category>
+            
+          
+            
+              <category>ed</category>
+            
+          
+        
+        
+          
+            
+              <category>Vulnhub</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>VIIT CTF V3 - 2021</title>
