@@ -14,11 +14,83 @@
     <managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor>
     <webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 18 Aug 2021 15:39:14 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 18 Aug 2021 23:48:04 +0530</lastBuildDate>
     
         <atom:link href="https://gr33nm0nk2802.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>CVE 2015 1328</title>
+        <link>https://gr33nm0nk2802.github.io/tags/cve-2015-1328/</link>
+        <pubDate>Wed, 18 Aug 2021 23:48:04 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        
+        <guid>https://gr33nm0nk2802.github.io/tags/cve-2015-1328/</guid>
+        <description></description>
+        
+        <dc:creator>gr33nm0nk2802</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Kernel Exploit</title>
+        <link>https://gr33nm0nk2802.github.io/tags/kernel-exploit/</link>
+        <pubDate>Wed, 18 Aug 2021 23:48:04 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        
+        <guid>https://gr33nm0nk2802.github.io/tags/kernel-exploit/</guid>
+        <description></description>
+        
+        <dc:creator>gr33nm0nk2802</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>OverlayFS</title>
+        <link>https://gr33nm0nk2802.github.io/tags/overlayfs/</link>
+        <pubDate>Wed, 18 Aug 2021 23:48:04 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        
+        <guid>https://gr33nm0nk2802.github.io/tags/overlayfs/</guid>
+        <description></description>
+        
+        <dc:creator>gr33nm0nk2802</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Port Knocking</title>
+        <link>https://gr33nm0nk2802.github.io/tags/port-knocking/</link>
+        <pubDate>Wed, 18 Aug 2021 23:48:04 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        
+        <guid>https://gr33nm0nk2802.github.io/tags/port-knocking/</guid>
+        <description></description>
+        
+        <dc:creator>gr33nm0nk2802</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>bufferoverflow</title>
@@ -39,12 +111,12 @@
       </item>
       
       <item>
-        <title>dirtycow</title>
-        <link>https://gr33nm0nk2802.github.io/tags/dirtycow/</link>
+        <title>CVE 2016 5195</title>
+        <link>https://gr33nm0nk2802.github.io/tags/cve-2016-5195/</link>
         <pubDate>Wed, 18 Aug 2021 15:39:14 +0530</pubDate>
         <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
         
-        <guid>https://gr33nm0nk2802.github.io/tags/dirtycow/</guid>
+        <guid>https://gr33nm0nk2802.github.io/tags/cve-2016-5195/</guid>
         <description></description>
         
         <dc:creator>gr33nm0nk2802</dc:creator>
@@ -57,12 +129,12 @@
       </item>
       
       <item>
-        <title>Port Knocking</title>
-        <link>https://gr33nm0nk2802.github.io/tags/port-knocking/</link>
+        <title>dirtycow</title>
+        <link>https://gr33nm0nk2802.github.io/tags/dirtycow/</link>
         <pubDate>Wed, 18 Aug 2021 15:39:14 +0530</pubDate>
         <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
         
-        <guid>https://gr33nm0nk2802.github.io/tags/port-knocking/</guid>
+        <guid>https://gr33nm0nk2802.github.io/tags/dirtycow/</guid>
         <description></description>
         
         <dc:creator>gr33nm0nk2802</dc:creator>

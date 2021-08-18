@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Wed Aug 18 09:55:49 2021 as: nmap -p- -A -oN nmap/allPortsKnocked 192.168.43.127
+Nmap scan report for Huhuhhhhhuhuhhh (192.168.43.127)
+Host is up (0.00085s latency).
+Not shown: 65533 closed ports
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       Apache httpd 2.4.7 ((Ubuntu))
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+8888/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 18 09:56:07 2021 -- 1 IP address (1 host up) scanned in 18.49 seconds
