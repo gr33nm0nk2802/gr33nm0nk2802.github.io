@@ -1943,7 +1943,7 @@ get wordpress.bkp.zip
 </div>
 </div><p>Nothing much userful,but we have maybe some useful information inside this message.</p>
 <p><img src="/images/vulnhub/photographer1/mailsecrets.png" alt="Mail Secret" /></p>
-<h3 id="web-enumeration">Web Enumeration</h3>
+<h3 id="web-enumeration---port-808000">Web Enumeration - Port 80,8000</h3>
 <p>On navigating to Port 80 we see a normal webpage with no critical info.</p>
 <p><img src="/images/vulnhub/photographer1/banner.png" alt="Web" /></p>
 <p>Running <code>gobuster</code> on the target, we get nothing userful except for the following <code>images</code> and <code>assets</code> directory.</p>
@@ -1977,7 +1977,7 @@ get wordpress.bkp.zip
 <p><img src="/images/vulnhub/photographer1/shell-as-www-data.png" alt="shell-as-www-data" /></p>
 <p>We are also able to read the user flag.</p>
 <p><img src="/images/vulnhub/photographer1/userflag.png" alt="userflag" /></p>
-<h2 id="esaclation">Esaclation</h2>
+<h2 id="escalation">Escalation</h2>
 <p>Finding setuid binary on the system we come up with the following results.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2743,11 +2743,11 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul>
         <li><a href="#nmap">Nmap</a></li>
         <li><a href="#smb">SMB</a></li>
-        <li><a href="#web-enumeration">Web Enumeration</a></li>
+        <li><a href="#web-enumeration---port-808000">Web Enumeration - Port 80,8000</a></li>
         <li><a href="#koken-cms-exploit">Koken CMS Exploit</a></li>
       </ul>
     </li>
-    <li><a href="#esaclation">Esaclation</a></li>
+    <li><a href="#escalation">Escalation</a></li>
     <li><a href="#pwned">PWNED!</a></li>
   </ul>
 </nav>
