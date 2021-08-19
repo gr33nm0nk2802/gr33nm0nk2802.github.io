@@ -14,11 +14,83 @@
     <managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor>
     <webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 18 Aug 2021 23:48:04 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 19 Aug 2021 12:58:30 +0530</lastBuildDate>
     
         <atom:link href="https://gr33nm0nk2802.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>docker</title>
+        <link>https://gr33nm0nk2802.github.io/tags/docker/</link>
+        <pubDate>Thu, 19 Aug 2021 12:58:30 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        
+        <guid>https://gr33nm0nk2802.github.io/tags/docker/</guid>
+        <description></description>
+        
+        <dc:creator>gr33nm0nk2802</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>john</title>
+        <link>https://gr33nm0nk2802.github.io/tags/john/</link>
+        <pubDate>Thu, 19 Aug 2021 12:58:30 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        
+        <guid>https://gr33nm0nk2802.github.io/tags/john/</guid>
+        <description></description>
+        
+        <dc:creator>gr33nm0nk2802</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>lxd</title>
+        <link>https://gr33nm0nk2802.github.io/tags/lxd/</link>
+        <pubDate>Thu, 19 Aug 2021 12:58:30 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        
+        <guid>https://gr33nm0nk2802.github.io/tags/lxd/</guid>
+        <description></description>
+        
+        <dc:creator>gr33nm0nk2802</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>ssh key</title>
+        <link>https://gr33nm0nk2802.github.io/tags/ssh-key/</link>
+        <pubDate>Thu, 19 Aug 2021 12:58:30 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        
+        <guid>https://gr33nm0nk2802.github.io/tags/ssh-key/</guid>
+        <description></description>
+        
+        <dc:creator>gr33nm0nk2802</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>CVE 2015 1328</title>
@@ -225,24 +297,6 @@
         <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
         
         <guid>https://gr33nm0nk2802.github.io/tags/gtfobins/</guid>
-        <description></description>
-        
-        <dc:creator>gr33nm0nk2802</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>john</title>
-        <link>https://gr33nm0nk2802.github.io/tags/john/</link>
-        <pubDate>Fri, 04 Jun 2021 21:55:36 +0530</pubDate>
-        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
-        
-        <guid>https://gr33nm0nk2802.github.io/tags/john/</guid>
         <description></description>
         
         <dc:creator>gr33nm0nk2802</dc:creator>
