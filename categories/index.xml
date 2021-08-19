@@ -14,19 +14,19 @@
     <managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor>
     <webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 19 Aug 2021 12:58:30 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 19 Aug 2021 23:40:40 +0530</lastBuildDate>
     
         <atom:link href="https://gr33nm0nk2802.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>tryhackme</title>
-        <link>https://gr33nm0nk2802.github.io/categories/tryhackme/</link>
-        <pubDate>Thu, 19 Aug 2021 12:58:30 +0530</pubDate>
+        <title>vulnhub</title>
+        <link>https://gr33nm0nk2802.github.io/categories/vulnhub/</link>
+        <pubDate>Thu, 19 Aug 2021 23:40:40 +0530</pubDate>
         <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
         
-        <guid>https://gr33nm0nk2802.github.io/categories/tryhackme/</guid>
+        <guid>https://gr33nm0nk2802.github.io/categories/vulnhub/</guid>
         <description></description>
         
         <dc:creator>gr33nm0nk2802</dc:creator>
@@ -39,12 +39,12 @@
       </item>
       
       <item>
-        <title>vulnhub</title>
-        <link>https://gr33nm0nk2802.github.io/categories/vulnhub/</link>
-        <pubDate>Wed, 18 Aug 2021 23:48:04 +0530</pubDate>
+        <title>tryhackme</title>
+        <link>https://gr33nm0nk2802.github.io/categories/tryhackme/</link>
+        <pubDate>Thu, 19 Aug 2021 12:58:30 +0530</pubDate>
         <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
         
-        <guid>https://gr33nm0nk2802.github.io/categories/vulnhub/</guid>
+        <guid>https://gr33nm0nk2802.github.io/categories/tryhackme/</guid>
         <description></description>
         
         <dc:creator>gr33nm0nk2802</dc:creator>
