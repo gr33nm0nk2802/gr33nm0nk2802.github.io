@@ -27,8 +27,7 @@
         <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
         <atom:modified>Thu, 19 Aug 2021 23:40:40 +0530</atom:modified>
         <guid>https://gr33nm0nk2802.github.io/posts/photographer1/</guid>
-        <description>The following content is protected.
-Javascript needs to be enabled to decrypt content This is a fun box where we have to exploit an authenticated file upload vulnerability to get a shell on the machine.</description>
+        <description>This is a fun box where we have to exploit an authenticated file upload vulnerability to get a shell on the machine. The credentials for the authentication to the Koken CMS is revealed in an open file share.</description>
         
         <dc:creator>m0nk</dc:creator>
         <media:content url="https://gr33nm0nk2802.github.io/images/vulnhub/photographer1/banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>

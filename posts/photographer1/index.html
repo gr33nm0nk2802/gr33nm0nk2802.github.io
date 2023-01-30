@@ -1395,7 +1395,7 @@
     "datePublished": "2021-08-19T23:40:40+05:30",
     "dateModified": "2021-08-19T23:40:40+05:30",
     "url" : "https://gr33nm0nk2802.github.io/posts/photographer1/",
-    "description": "The following content is protected. Javascript needs to be enabled to decrypt content This is a fun box where we have to exploit an authenticated file upload …",
+    "description": "This is a fun box where we have to exploit an authenticated file upload vulnerability to get a shell on the machine. The credentials for the authentication to the Koken …",
     "keywords": ["Samba","gobuster","Koken CMS","PHP Reverse Shel","File Upload","GTFObins","PHP SUID"],
     "image" : "https://gr33nm0nk2802.github.io/images/vulnhub/photographer1/banner.png",
     "author": {
@@ -1657,115 +1657,120 @@
     
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      
+      <p>This is a fun box where we have to exploit an authenticated file upload vulnerability to get a shell on the machine. The credentials for the authentication to the Koken CMS is revealed in an open file share. The escalation is also a simple SUID which can be easily found on GTFObins.</p>
 
-<hugo-encrypt>
-	
-	<div id="hugo-encrypt-encryption-notice">
-		<p>The following content is protected.</p>
-		<noscript><span id="hugo-encrypt-enable-js">Javascript needs to be enabled to decrypt content</span></noscript>
 
-		<div class="hugo-encrypt-form">
-			<input class="hugo-encrypt-input" id="hugo-encrypt-password" placeholder="Please enter the password."/>
-			<input class="hugo-encrypt-button" type="button" value="Decrypt" id="button" onclick="hugoDecrypt(document.getElementById(&#39;hugo-encrypt-password&#39;).value,&#39;input&#39;)"/>
-			<div id="hugo-encrypt-input-response"></div>
-		</div>
-	</div>
-	<cipher-text style="display:none;">6512810b2af7a330-a123278dcf3a38b958d46c39-1376fed6e20333bc452da1ec87b6a9f4fa8e737532c827c4856a7b9d0b3982a052096dac5e3021b2b2f5dcd8966f890cdc6fc6f2c73ecd00e83d058049cd32bb07c404553c2c225f661a90400dcc2f9cb1e62cd589643f82304f8fa5b23f11b11584f0fb78abb9f3a2b6647f2b3862c1db9726c7ba0c78c7f75f0bea6cc8945e130d498a9f0d0a09cd841c456893caa93da979c2df783a27c0edc8676574e48f4a27e732c78551a63379aa9cd292a3cba3dd04084b2fe90ab5248bf6ad8df3ae691de4f65b973fa19c75cb46f2df906dd3705fdc9339376b7988b89bf404f946cb91b3ad9adf75df6be502f83f67cc68a583322a2e7fe0e2cd0546b069f45c85e4780bf9ce4fad65db4a1ed43b793f32fe7184cee76b92a14338aac42016d1da70a230a7b39ff957b9535fee1bad6b37510c3740e537e9a379c3252786def10394667de8391d6d3f7e8f32133d3c17d062d39815617c4ad893f12ab05bce58d637720d5f55364331b8d2fc616a23e7e9f970eb2f41c690afa6d7e5006a06355b984b935216699b1b78f96bc8ca9499ec4c35b8faf7f7d57b9398662f6e1ab9a7b0ba2912c88742555cccd9a950422c3ac63c57ff93fa296e6be76af93c5de25e72a1977393dc732b705a2a40be73ee046c8bc5c864e257610bf05f38019fe3ec7a686c648f4566f8cf0d65181b2d3b1e4a2bd5fa9a069769555e84497ee9aa1dd4532843b2367a6b9cf22db9b441c004a95fae4b80a3a82d98b0532a65c0a9995df493298df5c38d0020487466c97e3b460742625dfe780f68a754db11142cb3fcb0a42eec70d1e63e140956c51dd22a00d14a574690fdaeb4068b0ab2b4d52fa7647290942ea528dac2b1d11fbf2d9029a981808be9c4de2911ee0ee362e66f9461b7cfe2222f18dec3a8d556fe1f31d95c1a9ea3757af2fca0cc600a91c4ac10ea0e06c0073ba3e82c2b9e1db19a1363ca0322531315626b7dee0f54587941952e419c2f3ba78f2e06d9e96ec06159cedd712cd116623d10d85a42e7c5759efb8f69b1dea7ddc73b9b08e80019e9ce1b5ee077a3734eac19d09f9b64f5606bec21e50ecc84156878e48b9612edfb518915f5858c15cc6f556935142ac699f043c7c4a2bfeecea200c282e20ec13f66f1876f728e3e5c05e0257ab465cb01db688219a4965cadaaf092b5eee09783d6af84254e32aef2590e516f6079ccadc6e235a008de1bd08ce6a13b2e06a0b5ee67cd3ffe643456b3829c6be42e295cddb7cfd3fe7af1409c3495ab263f69046efd991999f341928e5b4d52cde10b460829dd1302f7d393d5ab8f3818dcc714ec0e5852a0493173561bde3704c8f9ec51447c4d9ff165be8396824190d6ef1e2a1d42a2d2f24d9cd8d91bf0e0f22b9a480c92ce49fca52c2dbb80ca17ad7947bcf1444d2ff96e1662ea3dd875fc8f6929453cc5bd6f7ef89a5f0fe63c5938c13f3634c0774644127e9920317ce9b78257e8ae55d0087683f355ae9bb8744560d00f4a41d2f61dc2865be56692ed75369361ab71c8cfed9ab04d47b26787cc62f4d1b77a3f83bb91c1b22b8a28f0b5d4c4b4a264ef431d2bef548c4df06fe230bf1c8db4689c551f64621f47609bed1505d93d34bb0ed243ee5968c2eb50c32acbaa5735dad04e4b8bea00fa4671c21fcea26c8136c44b51496f57898ce28a5715f40b342bc083a97d6c35076a17138c77b1110f8e6499e7c4019ee9b6ea76d6015de7ca949cce4107ed83edfd9973b3b887f25176c3b48e9dba81e476214c5398fbfca079cae8d74018ae38226086f4332d9c5d1943deb83abd2d8c15303d7d82c69cd355e3136474224e453e7b4b909354cfecfaa4cb9e2ae2c1146864d2a92f54e41a1d0d86ba5f4051f06943c396b985a4a2f0e51849dfe0828c3a50d55579f29315d6c47212defb0d1e38ce11f20fe3698541aab291feb22c0ced5bf6e7c32c45f0286af605605e3a02b9a1a3c8f299519e8a575e9ec6fbe7612752cfe3bfbc8c1da1a8a745feae5d797bb0087007afa20583ee1d45632710b5b26ecbffca6ff42374de12ed78ec3d26e8e3d8e9e48fe5082b94e0765e09df4685b9a1fb1603966d4fc85a599bf5aedfdf3cd7e9e3367ce567661b2f9ef6811cd8f076ef4bf887216068a4000223fc239ce09b68130eaabb370a14eb630a9d16f45d4d02dd96ea10763667019afb1bc2119ea15528e3f19ed46e9475cfd965144ebc62c2c449f4e8e2f1f3fe7c2c73c039d5b8f53a49d7e6a3fd2432dd5c802b8bbbd93dfe667e8719021876b3bc4944ef3d92580575dba6e1cff3fbeb077a457d5bdaa4de55c97c1218b40792150736dd881e0385e576928db3cd9cca5fe97178e8b53ec8e8558ce001945401ed7fb74013a3585bb07a359126a8536c28ed60c6a1f1b23d6059dcb1fb655495c0610adcbd3be283d83d994ab9b57944e33fe535028c4ff527c050fa932362b17dcf3e269fcff1427f7801fc7b3426e0ef84fcb6476346f54dd2d8a0d4a2217344206d5fcb272d5aace4ab82d8fef2ed78300c7229197ca7f2a17081024cd404b072edfdf7c6ecfef56ff1a13e09ae1db8014b24d7a8737f999f6605b8d0d39d2978a9f06a1ccc37ec8a0e4de34030cce4e514839af42f9cc753069622f6def83fbac31d9628efef470d3ef11ee9f4c3badba0b2c2d5d0056cd5c4d4fd2095e1ee01adbc8672d260bc1db6a588a1a9991c245aee0669aa1df39f7faff47100303e55b0f686210033e8fa17b2b97c5694b905b9c2799775347e323261d44edf92ae2c08e9598cfe537ace92c2fc6c3f72c31fdf0492f9415307a5f64245b15e8ba454c9de854eb69a7d1815033e8ea707805184a1f7fb5118bbe570b434fafe1221681e8acde285d868091229cd04cc2f7892ae8cb9cfc56981089350c7499845b3dd20f875b5ffd3e5e13df73fd9975ac6036d1c60a00f3fd0eb7e67c4717f733130d653f6f564008ea4662b8eeb62d19c5670dd9932f4d4924ca289b1ac6caee8413513632b1b8c83b22f053fa88f751c3f9e2494334d27c2492f10122cc051f4584725c0717c216cdf29516ae35af3ed6e5d5e5ef29af41e249a37ce57dcdb60f852e693972742f9100d44db9c96e2ce934f7aa54c1a09f84c6da40d6cb4c5656ef692da0ff017cb671119f321ee471ae9a41d3234a2e53a7cef4f81333cc33e030147b3e9e0610c8a786cb298570b6fac281793a821d12f3f578ae6f44e1e504187c46af7db274d88bbb058a05425ab53ea98ebac5195863481c6873da901f2cbb195cdeadb3a3e4c9a9ea0e8488e24a68ad91011c34d376394a73fdc82d2bf4bb06ae1b13443b9ed430f50b76ed9a90ad1666f15853419243a1bc7a3d482947177763c1d281ac17ac36692c4c32a6af80df6d1cd4c71a307a7939b11fcf86a09be2a3e2b9114ad959968a85f7cc19e8dcf2b03b9342eda4017454950efaa452ac1ecb3f342113d065e0879d4e193ae0266154c7abb05f2bcf34f9bceb3e2fc42b52524b90d215f285a57eab017cf6a80edb5bfa6603e5c92755c6b38d7ac103064208a1bd3f786ec3c602da4a9c59030906c925d3bcdf5a480b09285abf336f3761c07615f8bfbd376da28f32cb816432552530bcb87d2f0f5298a31f1bfd80c195ae1bd59cfe35725f2214678a1fdc371ed9d3fc0cf88883fc374b783db029ee7aeaaacd883c6c69f48517c69c9c770094a66f94ad7424278ba76e2dcfe31e6554744652968bdb98d14b94dabeec96fe99d67739bba22740c8649876e24c6da88c4862854f216fd4bb7e5db38cacc90f67d004b8e33fab8bbfa21836451eb1246df1b31effa5d4a0c532b159fecdc86eb0fa7e5c5c1019fe5c6adbdf5750418cb3ad59bd53233868a09029ca04fa83597f6431e471be2968abdff237c0fcdf6bcc3946d0a78bdff66e3aada169aa0c60d95ac310432d03640495e651af155e7db4583a08e8dbbacdc08fff35f34212f5612b8535b77b2c5069854302bdab55576858fc2f852a8e83f4b70a6d7e8d89330a0add66202180dda4b423872864f6a88cc2c78c255274550c8fa8e07986a9c70132127e495d3ce18391e5e142bb10c8e047d341527d7041ded431bc743e427a4bbbf75054795930590f2bd92c4eb9fe6da628f69e332f3a6cdc866f7b7d0b3e1103d4ee972dc6023b9ca819831821f82922f145ec0374878d65d5f72c4f8dac100d6f98da129f588712a01e0c932f561d82eaae65b6d0be6a175550f09174b35be090470b56e1e5e238120d7b2b1c1c8e060ffe33f3a10a7e5e3dbdacc1a27be7622c875cb977844151effc7189e59d81356a6ccfbe77f4c723d50a92d9cbf500e21e1f14833fe9841c4f40ff79c9bae12f90240c8e447f3e4903ad7d51196fe02529a01cdfad98e3d6aa72f3228a9194ac6ef92aed8e904ccf7e2beb3aea90022c46c7b1f5593164f4c040b603a6b8264a3ab23f48a282900a4c987062a61dabe9ccb52df4a755177adecd6b831dce97dab7de9c3d628535743ca88a7e63554d0f7e325c790b56a20cf4c2dd7dd6d0cb658bc5c1dc2389ac192099e3b1bc0e9cf511c01f145a8a856055e05f471e12976210fa56ffe444a454d9d375e117eda147a50531edaafc161dc6650804ad7bacecb086717ec2cdaf3113604503146a643c462db19d121b305c77bb47a784801d704ba014e5cfda0b12d7a138b9dafa7322a5d0f41a206af58a5d28aa87e00d8b86822d425721147921fbd52b3dd222446674f5a0d1ee18e11f031fdd018b7838153ea9c59a8df3ef6e600570306edf5ec5e41594e32c11a1da54567aad9dea9ed96d4bd1f5b56c31f97966b6e88bf540aeb7336cc1a64b2aadf9937fd38f96415d46ad24fcdf1218a8c81e960c6dde66efffe46760ae45245545a2f1ef1c7bfddbc9bd75c06c10f0f5938dddfeb0783a902fb97f4ca45fc81400d81cfc915ce735bf04da75dd8809b85a624b9cc2cf041ce4381e507fb8a020702ee34f48535c7ea6948865815c04f29353b2001ffd06b40e586a194d1c99d36afc10428400a8c5f9c184d6986d7eeb21fde1f9c185cd1f46ecabfbaa1e6696b911407e134fbab234e836f6fb8ee5c4a5afe4d3384774e6e773defec29161cc1e0f360ab44d1a62ca1e6fc4192bdaad8e25acbaa46f32ecf0e9f77c974194aca95be7c47f65a7b0d5f9d1d6a19a230138dd657cd2e29d92474d91714ceb2e2913f2156a6c300f7aa0a5ae099044f07de7d8231ed7bf6f03a22f575b5a87fed17b919970a0321d2a6d459077c3c608b778a2c53cf5e3207e59bf4a8773acfa41a7704b9898558c0e49f579c3c76ff721d1bec8f45a7e486a9e4a0453716b7f643d8a263948e24fc23105ff0299e4a1e5ab7c1b86b4aa4dd9aac7e0b766a8d75798affc3a4c594a56789d8874f8e7b4b2ecebdf9b719f123679bb6668dd787d5d4aadc5d7ee33d4000d849cc4464ea8a9dd32141742f1183f3bd563ea79bdb2ef5bea5c44985cbeb4edb1b88a149856dccfab8128f34909a767a7529f293dd1f4f3ee5a0cf6973ede4013f4f09be65c05bc0d18062ac595210f1cb9a1073bcec707005eb6692d7a1c7b4536fa2629b0ac13dd251d99066d7c134d723fdb6fb119e9c3ee096a6078c009202c8da09f4c5043da601c380347a8a8b33771788019d229e93f459548b4426b9373b0c4e63320e5a002f30b628b029bd7d669c561d23ad65f2d0b9b0543c05ac0b130a0aa15668f505a836d07f42b46d140dc8b397e8a64e278b4104bea3ac6ca7a214b5fa4515928f07ac8fb39830ade5b04fdaa6790561a158e116b843d0371a29c695e815ed66797922cc9a727332f525c9a6e61ac3cda85c9d7153e95e20ad7865de3e75ad311f75483c8623ad350c0b8dbe232ae0a247a1e23d52d0ec6ec13178423c716f8f47d1bcbf0aebe389f12204bca7f64c63732b470cb644ca49a9ca2abffcbe89399a2059e6242663a13127bea1a2f91d6550bb58c5f375d5c5283dc1aacfaaf1137d91f09a4c3f53dbbc387e0e540929b7d7f72a53f161cec48ce9ad3508411ec20aa9fff4c69230f3380889ea414e6763dbab92e95cd2ca555b0cf42dbb531a56e933b472be4cc320bce7abc3cac5eeb4650ca890de2ff6519c34b84f4c8b9f7e9679acdb02c210c7c207c9efa66874ece3e8c2dbe595fc9683b58580e19cf1290c8285618710e4f9020a11df348ad01f373df545776d98fba333935c14ae04a8835f2d1401a49e09d388e9f0cd7374b16993426d3abfc63474f550f98d8c341e95a22ae2b04bea8b42cbd782b23c23a4646cec0d9c11f3dae0e54f07614513e9022ed2f0d285fe4e6182f15a5db1c851d5ec3aa54342460684cd9e3de8ac34dc1cd917497c85287fc6522a096e65a0881fbf5c8b51c980c3003f7d891d16ed6aa1529109e73e691bfd82f0c70c3754f643344e170eba0b938fae2d56bb18bff858bb98a353d784021134e99908d5d9ad11f42ad7be732bfe275e917b81318126caae24ca1d7de1150cba17c2e935fdb880a4880ddd158e4f760c012e1ba89843f377a2962984a8dbf30a6da7d05cb309eb0b1b5e765f2e7fd4787ab21f90cb19108d62d519db8e24b13b52b0de07c7c599d81d8cb24d7df792c6c3a486c853d4bc59d10120f5c0881d3bc05ef9c6a62ecb3d459e4a1d684f074a983d9d464b7190895dfb5a94c9dd1afed8d4a9e563d0b127bf578f6d6aa75e592e5943b3a16c77485873b00bffacc6070734f4caca415533b5f594d421bbafa5ff4b6f43b3080819afb630f1b194c264ce0d33482bf12b680763cbb09f68afe3ef439b663c5713670be25fff8d79f8aba268b9b67db232fcfbddba2f02241dd57ef0e7f450af30b8ab00cd760268515c3cd1d0fa8cca6f3821681ff131fbd2eaff1f3d5442c15af840c64b3106e345e46fce14440acca286ed9e4ff8418ab09ca782c481d1325814649a33888a468e24d892b529fcfb2c067dab7695847a682964c95af0668d7ba66fcf4a189516d759adb62ffc200e5c7c1ca2bc3792594370cb4f5d2500dc442de51b02e185222cd62ca5d9f8b3e6b9a98e04bd8fcbfb629fc68ddcb7557b389bf0c3641423103880fc14c89716888f285ff107411a6548ffde2062eb6d8247eb8a13df712205d81cbfa0369eb54556243ed175808807fac3327ae6d3ff600aa2b46aa06255e5050be594f432b4ae0f0f082f8e9e482b9c6972ba166aee5e32665b22c01d31f0a164329594cbfe76e84b41686c1b4bf552e2a656fa9174be5aa2e579addc0dd6875fc56e3d5704f0cb429f323981f7592ec4370f354a19c37b31f821e440f28061dbdeb16d28c60c46cfa1d665e65eb27e0171132f3edbe05569e74ffcea9acb97dc8a07da2c0d960b074fe18112e22719edf15ee20ae309268c7315dfebf5720dbf514c68284e73837d002e79cbd754aa2ac50d4d08d613b6ba4ed53af8aa9adf7714c8ae82b3a503a9a0604dc719b0994e4ee6cce74810dcaffadcf532018a8ee1ca51508d969a98a55f60172b963c0ae7bc526fa0db7e28fa612ac55a172823e3787e194bc810e2d5f91f9b5c7cfdbf1f5e0b19fef23b348267f0f650789b5ffc4f377e4e559ea443f20bb7a4e7e1fd45664e864c1cabb33d0fc34f22c75e95ba9552e203356ad4e02556a4519267abb4b44dabeae5c2fbd466f44c3668404f73469597f709d8969d31837d4869188861dd55e6deeecd5ac9be1845b5fc98747f83ae5a2b132f2612a286458399e21e4b7b67999bd05af158300e5a337441d25c3b0f1694f81f25409f15a4a57997109cb6cf1e289f8675b0f00865e21a555e542f39edbb3d019edfd76f68cf6d8dba08038eed5225d010eed10b1357105482e12504e3b37db413e54fc0bc20d26344cdf87daf49f1c068b89fb3c70246078ebfe99b55d7da98039d78ad138a0562c96e126bb2619ad88796219fdd43d65cd4f6ad2675015e6b9b532369ee46160957dcce99ecdbfdcd5262a531d61b54d7e46cc6052d11978b6c4745ec45709987cf2ba4c94b59a02704d08d8dfdafe99913b5e505f003ddcd5e58e95df9807912948d743d69d768d5da5ddbfafc5f891146fcdd47897f4c9644d9d0356f2ab9b240feda1cef0f463b592bd876550ef535b4181eed782682d532a88d5f87f8ebe149e97d55c806460296d148ff26307123100bf5567b38db000b50ed9dfa177bb1b605e6ba6d58b18e81f9288e00d16cedf9e60426288872f5cd873a1f6e1d0ffba99d6eec35e84274f2354834d5480c045b8d28b1e4e4abcd1115c506aef9148829a4c7a85a26fbd0e6c62aa5c7aa34da807ee8df488486f4a267fb7356d011e8156849aedf214835aaf3b64c90755d1ef77c6f2af6c0f4be4ab077f81b46900fa6b01892bf9f825580df10e480a0c32732aac75d53ea2cc97572d9971de0cd617dee81255c464e50c9b0e1ff27c6e1aeaa10bba2a3adc19a8d73091d38e21674f614bf8858a29d4178b7363aa7b5784e3dc5525e18532e047b44eafa6621f1200992b1bfd7810354724989bf40f781664c8299fa870106ac3fceceb4698d605821375468addce1aee1ce5f558750a4f58778dc576ec3c618702e4ae978faa215003cf43eea72ccb4ba64d5c5ff718b0dbcf0282430783905ad27c0ec52ad0d7eb9de55a9c282deb540598e48013a8a226a672286f641cbc435933b51f833eeadadc97c60104cf5dc4a163f5768db8595ab9b2d587543b606466732edbb4b0c5935d7be88cf774e12800c92d40a982807f13a257d4b1a225d4834a17af2ea7bff9593f14eec726c3f423e4ea1b5204096629b3b68598f224ace3d97651a7ed8859dd3e083bc8e5f2812ce59cbec05134a049b5db931c8940bd55e6c9c5b09863500ec9ae4a5ab10f2755f9cf0faf9ca4eb1f4e8dc9f7230b1f1319df540400420d1b0e851f7159f9cd8ca793045f4c257c8b776fd40798a8f22debc1d71438ea352f0b05220cdf5d13ee79238f26ebb413aff712a209bc6b4e6e79272c561bb094336c7ca831a72b3ce9938ffceb9e84454a3289615fcf2d7e139a97cf73cb2a82fe7753ae2eb34fa4c804a90a89dbe5a1eb0f317b6e7b57b73d59db8617291ddc6df5f99e167baef9e70358992e2fd9f60236a9ad8d2a17be872dae31de2b713aa155d8515c1323e4365ca92ade2f5beed57d6d976bd14be9b2afb1767c8d144d35e23abe61e15830704f91715b8a813964220b5ead0ab3bcf05ac0246e2203a6e8377a94f934acaadc0c92fe5d20dd86bb5d120e6d5b4e058a5736db6b633fb6748e57acc367660ecbfb63ca0f22ed58e8306160e637ddddb12e5662d78251dd58772555bef7426fffa895b157324c52a6dcc262c9f3e8a5d3ada702db1822ab493c6c68fb7db8909606e7533a1e8f8ed6d83bb5491139ac095a1b7277694c570455a3e08d2e27e484544a3da2cbbdff197f084f1bf167b86de44c1a4d9c0949cb7b5e22b9e647dc8765e37e67da55ef9ce54a405b0f2ed82b26dc21013f6cb5d3699f066426dac05747b434b5defedb5350523f49b02be509fd51b843ff70320a6b5386839d3c3f06b312fd3ea9d83895a8d487b954f60e4dcbe022990187942b668d7d0cbc55f98b420d45b17aa5a2452fb4b43e4b917f985c17d4d06af36332b6d0410877ac878728c76dbec8dd1eeb780c5ee04789efd85d9ba65d774e45dd3934649db5adb6d363d4b065e26a80a6e5ad4b0d51d19246429c0b34df3efb8d9eee9e99a17274d7a74e2296ec9cfc3b5adee735622f50d7eb55f0340fa19147cfcc7a628e15a9da7a5206ae5b9575899d558484d52777f6dc8ca7fc443642f51df2ebab14bdb14860c45d0bcfdd9d37ebfa2537d023053b6f2430af51d70f798b6e72c65830f6517971389c0674395f883836bffeddc720ac9a92da8a2c253d282c1ce410b1835f1996245b0739a0673f99ccb7081e369f5226efc9bc88083ef98d10273430b1dc77d38e82021e7163aa592105ce2eb75e7e0840491f3ac08b24a97676294c7ea6e57f4342f23024c26b246e53eaeffb37c8c3d0a7b44b1753fc0c33cc413e21e362b636351636d6ccb7061c0214a926d8cac984cc3040e40c414b56079b1f461e2aaba6d6a6c46f4f3cc4be30e784691dd5e484eb6bf52b8414d626d636ae22c224f1b59d74217585ae5b1aa0b97f9d80e44a30c8e9827b84a5dab4a35ab2e43b422d0c0000854622f3c60ce91c97b2a9768ceb29e1387311132c0ad6a82c0e17135e31c7e9b6d97114fbf22066be39361f9bbc7a3bdc12958fbdecd6bbe0cdd95df29ad763969103e5175593f28993290d3d61b2b5b4f8a965343c6fd038046c70af5744df4ca51ca8001788698dffca112aaa63a4292024431d759863e9700b93633e003709f20459e99f59daf1a4591cc7e273dee3ada4bbe72243ecf57513a54ca2ca5133e8cce36cba3d4eca68e178ed808375a5eb7155de53d8373c89a7effcd8b48824c7b258b04fc8075896975debabb06e7a0f67552eb8600fef87780ef9e241cbb83a0ae8166fa318693c62652d7f310ff83625cadc0b6d3017b0b2ce44fc8881988eb80ae3c72d2af9031ae948eb643cf839cde8c8ccfa90dead5184e9b081fdaec2635c6bbb1579f1c5ba130b5e035b935faa2dab9957d35d4cbc91638adcf28cc372d62a5fdcdaec1ed69612f333abc9e31485f684e2c7fc2f7346382c9426219ac5c882b251a5000b475e369a2712d3077b4d5ac383d4d7a3cd6d2c5710aac0ec51b015e31e2473feff581f5babbe0f28ba40deeee9f9d8990eea13a641c0fd7ca7b5c9868ea2b87b76a4b7ceb79d84d76f7fbcc57c54f433055086e1b1de5ba49c7b0b687fe2bbcb9dd6703c5fafe5d56fa361e5d1e1d114dd55d8cd994108c0bf30b22d34121cc1db3285f32546e8a1b91dfa979fb4000c6903e15845d1541ab980c54f5c20fb7b9d1a9973b9afbb6a5c3cc9ddafb41d2d4363392136d78ce758a20595773500c01392fc82e82654468de170305924cad358cbe02df5aa7a4b63b41a3246e9122e472f0e6c0d2e0b19a9bcbde2715b936aff40a0e1029f5b1765c5da8c8da57f513a0f6c6efc694ef8fe24436f80f45c017f8b8978496d0ca06bc4c54bf89c64de6d353215084cbdbd575c9c3dd8629c55707dc6cc1cd2cfc1984e99d61610c6df1a438909d8ed08728f6a8e20f24ead3dcf490fe20d5510845f30b451c0081c4a912abbe142d1f528460741abf0b035e27c192a25e3b1c7a92e2369df2c1a06537c13f69c841a36fcd442e0073cf1262017f57d9c1ddc52d854c35d5d9b52f87cd9bbd7b3eeaf3867051615b541dc3b18929aaf0fa422f651b678227aa3db4c65b42cf0f2f50abda1dec21dda200cfcac571ed3927bb529a21806ce3f637df8bb2ab40637aab64281acaddea11c41aabc28712b0b86b4dc3247418ccfd2f814555d5d6300982b83bea1aef2915e19f0e779d3d1573fb6bb3ad4379191b2e2fe9dea71c13002ee42b7a261155c17ef7e425cf2b303019d72f90bd4bfbdfced5711630c27f9dc7a8919e7591c6b95f1b5e1abfcba52ddfa0eabad481d660c8e384059386b3e316f1150f13d9e14aae7a1dfb1ede4014dc2b4d7e331935d23619c719186e70f3f73475bdc648cf9d90827df20ee9b5fc8d36f3d53a293e85356bafd4ab730a28624b1893fdb755762060949962cafbb9bb117eae3be097ab382ab3b968e6c59fba3ba9a4261d15fa3acae6757f9505c588d77b77dbdc01fcd57e4109d97f74837609201bfc32e3af5fd34f83129af0097caa5381ede25a86360e4bff3b7b6b9cbd69466c66ded083bb62115291df061c765e766fc1eb89c9ce09d569b2e074f23c6a63af7ba2db8cb627d4312d44613113cdd62721be9d01bb90620c1915153c7414d18b121b8cccf854bef1036190a850ca75558fec5f0cbb474419fac64bbacca595765455ead7711491db659cadd037c048dcaea2c643cbcfdeeca3edc2240e85b59a6a599e86437102192844e3c4f41bc19f657b6a1dc1cfc51d3907efc1c5c41b3f473bffb8da7181e9d1e64fd63c201dc900f9484be4d0e001d76a648b730099483a9265645178fd5fde6d2b65a7715577f67b2c44fac7dec0710c29adaa6d7e8fdd394f4364aacc9b8fd5331990b06e1fcd13266868631d8cc066822bc87ad32f1fc29816c7aabffec67bba6e1b0eebf4e0155357e648f8f4e59805aef0d08ef2acd902e6af544b34eb52</cipher-text>
-	<style type="text/css">div#hugo-encrypt-sha1sum {display: none;}</style>
-	<script>
-		const storageKey = location.pathname + "password";
-		
-		const userStorage = 'session'
-		
 
-		function str2buf(str) {
-			return new TextEncoder("utf-8").encode(str);
-		}
-		
 
-		function buf2str(buffer) {
-			return new TextDecoder("utf-8").decode(buffer);
-		}
-		
+  
 
-		function hex2buf(hexStr) {
-			return new Uint8Array(hexStr.match(/.{2}/g).map(h => parseInt(h, 16)));
-		}
-		
 
-		function deriveKey(passphrase, salt) {
-			salt = salt || crypto.getRandomValues(new Uint8Array(8));
-			return crypto.subtle
-				.importKey("raw", str2buf(passphrase), "PBKDF2", false, ["deriveKey"])
-				.then(key =>
-					crypto.subtle.deriveKey(
-						{ name: "PBKDF2", salt, iterations: 1000, hash: "SHA-256" },
-						key,
-						{ name: "AES-GCM", length: 256 },
-						false,
-						["encrypt", "decrypt"],
-					),
-				)
-				.then(key => [key, salt]);
-		}
-		
 
-		function decrypt(passphrase, saltIvCipherHex) {
-			const [salt, iv, data] = saltIvCipherHex.split("-").map(hex2buf);
-			return deriveKey(passphrase, salt)
-				.then(([key]) => crypto.subtle.decrypt({ name: "AES-GCM", iv }, key, data))
-				.then(v => buf2str(new Uint8Array(v)));
-		}
-		
+  <div class="featured-image__wrapper">
+    <img src="/images/vulnhub/photographer1/banner.png" alt="featured image" class="featured-image" style="width: 700px;height: 500px;"/>
+  </div>
 
-		async function digestMessage(message) {
-			const msgUint8 = new TextEncoder().encode(message);
-			const hashBuffer = await crypto.subtle.digest('SHA-1', msgUint8);
-			const hashArray = Array.from(new Uint8Array(hashBuffer));
-			const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-			return hashHex;
-		}
-		
-
-		const hugoDecrypt = function(password, type) {
-			for (const cipher of ciphers) {
-				decrypt(password, cipher.innerText).then(function(decrypted_text) {
-					
-
-					digestMessage(decrypted_text.replace(/\r?\n?[^\r\n]*$/, "")).then(function(sha1_sum) {
-						if ( decrypted_text.includes(sha1_sum) ) {
-							document.getElementById("hugo-encrypt-encryption-notice").remove();
-							cipher.outerHTML = decrypted_text;
-							userStorage.setItem(storageKey, password);
-							document.getElementById("hugo-encrypt-sha1sum").innerHTML = "Success: " + sha1_sum;
-							console.log("Decryption successful. Storing password in sessionStorage.");
-						}
-					});
-				}).catch(function(error) {
-					if (type === "input") {
-						document.getElementById("hugo-encrypt-input-response").innerHTML = "Password is incorrect";
-						console.log('Password is incorrect', error);
-					} else if (type === "storage") {
-						userStorage.removeItem(location.pathname + "password");
-						console.log("Password changed. Clearing userStorage.", error);
-					}
-				});
-			}
-		};
-	</script>
-	<script>
-		window.onload = () => {
-			ciphers = Array.from(document.querySelectorAll("cipher-text"));
-			if (userStorage.getItem(storageKey)) {
-				console.log("Found storageKey in userStorage. Attemtping decryption");
-				hugoDecrypt(userStorage.getItem(storageKey), "storage");
-			}
-		};
-	</script>
-	
-</hugo-encrypt>
-
+<p>Initially we are dropped into a Network <strong>192.168.43.0/24</strong> we start off with host discovery using <code>arp-scan</code></p>
+<p><img src="/images/vulnhub/photographer1/arp-scan.png" alt="arp-scan"/></p>
+<p>We verify the results using <code>nmap</code></p>
+<p><img src="/images/vulnhub/photographer1/nmaphostdiscovery.png" alt="nmap-host-discovery"/></p>
+<p>So, we have identified our target as <strong>192.168.43.184</strong></p>
+<h2 id="initial-foothold">Initial Foothold</h2>
+<p>At first let’s try to enumerate the machine for all the running services and then ennumerate accordingly.</p>
+<h3 id="nmap">Nmap</h3>
+<p>Our <code>nmap</code> scan shows that we have four ports open <code>80</code>, <code>139</code>, <code>445</code> and <code>8000</code>. So, there are two <code>websites</code> running and <code>samba</code> file share running.</p>
+<p><img src="/images/vulnhub/photographer1/nmapallPorts.png" alt="nmap-allPorts"/></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tbody><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">80/tcp   open  http        syn-ack Apache httpd 2.4.18 ((Ubuntu))
+</span></span><span class="line"><span class="cl">139/tcp  open  netbios-ssn syn-ack Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+</span></span><span class="line"><span class="cl">445/tcp  open  netbios-ssn syn-ack Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+</span></span><span class="line"><span class="cl">8000/tcp open  http        syn-ack Apache httpd 2.4.18 ((Ubuntu))
+</span></span></code></pre></td></tr></tbody></table>
+</div>
+</div><h3 id="smb">SMB</h3>
+<p>Lets start by enumerating the SMB service first to see if we have null authentication enabled which indeed we do and hence we have access to an internal fileshare due to some misconfigurations. So, Trying Null Authentication</p>
+<p><img src="/images/vulnhub/photographer1/smbenum.png" alt="SMB enumeration"/></p>
+<p>We have downloaded two files here a <code>mailsent.txt</code> and a <code>wordpress.bkp.zip</code>. This clearly hints that the sambashare should have been internal but, it is open due to some misconfiguration.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tbody><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">smbclient –N –L <span class="se">\\\\</span>10.0.2.20
+</span></span><span class="line"><span class="cl">smbclient  <span class="se">\\\\</span>10.0.2.20<span class="se">\\</span>sambashare
+</span></span><span class="line"><span class="cl">get mailsent.txt
+</span></span><span class="line"><span class="cl">get wordpress.bkp.zip
+</span></span></code></pre></td></tr></tbody></table>
+</div>
+</div><p>Nothing much userful,but we have maybe some useful information inside this message.</p>
+<p><img src="/images/vulnhub/photographer1/mailsecrets.png" alt="Mail Secret"/></p>
+<h3 id="web-enumeration---port-808000">Web Enumeration - Port 80,8000</h3>
+<p>On navigating to Port 80 we see a normal webpage with no critical info.</p>
+<p><img src="/images/vulnhub/photographer1/banner.png" alt="Web"/></p>
+<p>Running <code>gobuster</code> on the target, we get nothing userful except for the following <code>images</code> and <code>assets</code> directory.</p>
+<p><img src="/images/vulnhub/photographer1/gobuster-80.png" alt="Gobuster"/></p>
+<p><img src="/images/vulnhub/photographer1/images-port80.png" alt="images"/></p>
+<p><img src="/images/vulnhub/photographer1/assets-port80.png" alt="assets"/></p>
+<p>On navigating to port <code>8000</code> we immediately see that this website is built using <strong>KokenCMS</strong>. So, exploits for this CMS might be available on exploitDB</p>
+<p><img src="/images/vulnhub/photographer1/web-port8000.png" alt="Web Port 8000"/></p>
+<h3 id="koken-cms-exploit">Koken CMS Exploit</h3>
+<p>Exploit DB has an  <a href="https://www.exploit-db.com/exploits/48706">Arbitary File Upload (Authenticated)</a> by box author which we came across while using <code>searchsploit</code>. But, for this we need to login to the admin Panel of <code>KokenCMS</code></p>
+<p><img src="/images/vulnhub/photographer1/searchsploit.png" alt="Searchsploit"/></p>
+<p>Admin Panel KokenCMS on url: <a href="http://192.168.43.184:8000/admin/">http://192.168.43.184:8000/admin/</a><br/>
+<img src="/images/vulnhub/photographer1/adminPanel-port-8000.png" alt="adminPanel"/></p>
+<p>Now, Let’s use the credentials discovered in the <code>mailsent.txt</code>. These credentials would help us authenticate as web-admin.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tbody><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">daisa@photographer.com : babygirl
+</span></span></code></pre></td></tr></tbody></table>
+</div>
+</div><p><img src="/images/vulnhub/photographer1/adminDashboard-port-8000.png" alt="admin Dashboard"/></p>
+<p>We will follow the exploit instructions as given on the exploitDB page post authentication.</p>
+<p><img src="/images/vulnhub/photographer1/KokenCMS-1.png" alt="Koken CMS 1"/></p>
+<p>Using Default Php Reverse shell by pentest monkey by changing the hostname and the port and adding an extension of <code>.jpg</code> to bypass the filter.</p>
+<p><img src="/images/vulnhub/photographer1/KokenCMS-2.png" alt="Koken CMS 2"/></p>
+<p>Finally renaming the file to <code>shell.php</code> inside Burpsuite</p>
+<p><img src="/images/vulnhub/photographer1/KokenCMS-3.png" alt="Koken CMS 3"/></p>
+<p>On our host machine we start netcat listner on port <code>4444</code> to listen for connect backs. And we click on our uploaded <code>shell.php</code> on our website. This gives us shell as <code>www-data</code></p>
+<p><img src="/images/vulnhub/photographer1/shell-as-www-data.png" alt="shell-as-www-data"/></p>
+<p>We are also able to read the user flag.</p>
+<p><img src="/images/vulnhub/photographer1/userflag.png" alt="userflag"/></p>
+<h2 id="escalation">Escalation</h2>
+<p>Finding setuid binary on the system we come up with the following results.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tbody><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">find / -perm -u<span class="o">=</span>s -type f 2&gt; /dev/null
+</span></span></code></pre></td></tr></tbody></table>
+</div>
+</div><p><img src="/images/vulnhub/photographer1/setuid-binary.png" alt="setuid-binary"/></p>
+<p>We found out that <code>/usr/bin/php7.2</code> has suid bit set which can be of some help to us and looking at <a href="https://gtfobins.github.io">GTFObins</a> We immediately get a one liner to get shell as root.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tbody><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/usr/bin/php7.2 -r <span class="s2">&#34;pcntl_exec(&#39;/bin/bash&#39;, [&#39;-p&#39;]);&#34;</span>
+</span></span></code></pre></td></tr></tbody></table>
+</div>
+</div><p><img src="/images/vulnhub/photographer1/escalated.png" alt="escalated"/></p>
+<h2 id="pwned">PWNED!</h2>
+<p><img src="/images/vulnhub/photographer1/pwned.png" alt="pwned"/></p>
 
     </article>
     
@@ -2510,7 +2515,20 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#initial-foothold">Initial Foothold</a>
+      <ul>
+        <li><a href="#nmap">Nmap</a></li>
+        <li><a href="#smb">SMB</a></li>
+        <li><a href="#web-enumeration---port-808000">Web Enumeration - Port 80,8000</a></li>
+        <li><a href="#koken-cms-exploit">Koken CMS Exploit</a></li>
+      </ul>
+    </li>
+    <li><a href="#escalation">Escalation</a></li>
+    <li><a href="#pwned">PWNED!</a></li>
+  </ul>
+</nav>
   </div>
 </section>
 
