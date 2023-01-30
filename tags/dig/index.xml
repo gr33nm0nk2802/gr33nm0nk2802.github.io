@@ -1,1 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>dig on Gr33nM0nk | Blog</title><link>https://gr33nm0nk2802.github.io/tags/dig/</link><description>Recent content in dig on Gr33nM0nk | Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor><webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster><copyright>©2023, All Rights Reserved</copyright><lastBuildDate>Wed, 02 Jun 2021 23:36:28 +0530</lastBuildDate><atom:link href="https://gr33nm0nk2802.github.io/tags/dig/index.xml" rel="self" type="application/rss+xml"/><item><title>VIIT CTF V3 - 2021</title><link>https://gr33nm0nk2802.github.io/posts/viitctf/</link><pubDate>Wed, 02 Jun 2021 23:36:28 +0530</pubDate><author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author><atom:modified>Wed, 02 Jun 2021 23:36:28 +0530</atom:modified><guid>https://gr33nm0nk2802.github.io/posts/viitctf/</guid><description>This is a short writeup for all the challenges of the VIITCTF V3 organized by the ACM Student Chapter of VIGNAN’s Institue of Information Technology.</description><dc:creator>m0nk</dc:creator><media:content url="https://gr33nm0nk2802.github.io/images/viitctf/cover.png" medium="image"><media:title type="html">featured image</media:title></media:content><media:content url="https://gr33nm0nk2802.github.io/images/viitctf/cover.png" medium="image"><media:title type="html">meta image</media:title></media:content><category>OSINT</category><category>Crypto</category><category>Stego</category><category>Reverse</category><category>MDxfind</category><category>Censys.io</category><category>dig</category><category>CTF</category></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>dig on Gr33nM0nk | Blog</title>
+    <link>https://gr33nm0nk2802.github.io/tags/dig/</link>
+    <description>Recent content in dig on Gr33nM0nk | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor>
+    <webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster>
+    <copyright>©2023, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 02 Jun 2021 23:36:28 +0530</lastBuildDate>
+    
+        <atom:link href="https://gr33nm0nk2802.github.io/tags/dig/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>VIIT CTF V3 - 2021</title>
+        <link>https://gr33nm0nk2802.github.io/posts/viitctf/</link>
+        <pubDate>Wed, 02 Jun 2021 23:36:28 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        <atom:modified>Wed, 02 Jun 2021 23:36:28 +0530</atom:modified>
+        <guid>https://gr33nm0nk2802.github.io/posts/viitctf/</guid>
+        <description>This is a short writeup for all the challenges of the VIITCTF V3 organized by the ACM Student Chapter of VIGNAN’s Institue of Information Technology.</description>
+        
+        <dc:creator>m0nk</dc:creator>
+        <media:content url="https://gr33nm0nk2802.github.io/images/viitctf/cover.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://gr33nm0nk2802.github.io/images/viitctf/cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>OSINT</category>
+            
+          
+            
+              <category>Crypto</category>
+            
+          
+            
+              <category>Stego</category>
+            
+          
+            
+              <category>Reverse</category>
+            
+          
+            
+              <category>MDxfind</category>
+            
+          
+            
+              <category>Censys.io</category>
+            
+          
+            
+              <category>dig</category>
+            
+          
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

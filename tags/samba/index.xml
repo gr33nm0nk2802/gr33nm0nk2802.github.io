@@ -1,1 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Samba on Gr33nM0nk | Blog</title><link>https://gr33nm0nk2802.github.io/tags/samba/</link><description>Recent content in Samba on Gr33nM0nk | Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor><webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster><copyright>©2023, All Rights Reserved</copyright><lastBuildDate>Thu, 19 Aug 2021 23:40:40 +0530</lastBuildDate><atom:link href="https://gr33nm0nk2802.github.io/tags/samba/index.xml" rel="self" type="application/rss+xml"/><item><title>Photographer 1</title><link>https://gr33nm0nk2802.github.io/posts/photographer1/</link><pubDate>Thu, 19 Aug 2021 23:40:40 +0530</pubDate><author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author><atom:modified>Thu, 19 Aug 2021 23:40:40 +0530</atom:modified><guid>https://gr33nm0nk2802.github.io/posts/photographer1/</guid><description>Javascript needs to be enabled to decrypt content This is a fun box where we have to exploit an authenticated file upload vulnerability to get a shell on the machine.</description><dc:creator>m0nk</dc:creator><media:content url="https://gr33nm0nk2802.github.io/images/vulnhub/photographer1/banner.png" medium="image"><media:title type="html">featured image</media:title></media:content><media:content url="https://gr33nm0nk2802.github.io/images/vulnhub/photographer1/banner.png" medium="image"><media:title type="html">meta image</media:title></media:content><category>Samba</category><category>gobuster</category><category>Koken CMS</category><category>PHP Reverse Shel</category><category>File Upload</category><category>GTFObins</category><category>PHP SUID</category><category>vulnhub</category></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Samba on Gr33nM0nk | Blog</title>
+    <link>https://gr33nm0nk2802.github.io/tags/samba/</link>
+    <description>Recent content in Samba on Gr33nM0nk | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor>
+    <webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster>
+    <copyright>©2023, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 19 Aug 2021 23:40:40 +0530</lastBuildDate>
+    
+        <atom:link href="https://gr33nm0nk2802.github.io/tags/samba/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Photographer 1</title>
+        <link>https://gr33nm0nk2802.github.io/posts/photographer1/</link>
+        <pubDate>Thu, 19 Aug 2021 23:40:40 +0530</pubDate>
+        <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
+        <atom:modified>Thu, 19 Aug 2021 23:40:40 +0530</atom:modified>
+        <guid>https://gr33nm0nk2802.github.io/posts/photographer1/</guid>
+        <description>Javascript needs to be enabled to decrypt content This is a fun box where we have to exploit an authenticated file upload vulnerability to get a shell on the machine.</description>
+        
+        <dc:creator>m0nk</dc:creator>
+        <media:content url="https://gr33nm0nk2802.github.io/images/vulnhub/photographer1/banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://gr33nm0nk2802.github.io/images/vulnhub/photographer1/banner.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Samba</category>
+            
+          
+            
+              <category>gobuster</category>
+            
+          
+            
+              <category>Koken CMS</category>
+            
+          
+            
+              <category>PHP Reverse Shel</category>
+            
+          
+            
+              <category>File Upload</category>
+            
+          
+            
+              <category>GTFObins</category>
+            
+          
+            
+              <category>PHP SUID</category>
+            
+          
+        
+        
+          
+            
+              <category>vulnhub</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
