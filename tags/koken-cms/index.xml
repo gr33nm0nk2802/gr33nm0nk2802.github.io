@@ -10,7 +10,7 @@
     <link>https://gr33nm0nk2802.github.io/tags/koken-cms/</link>
     <description>Recent content in Koken CMS on Gr33nM0nk | Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <managingEditor>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</managingEditor>
     <webMaster>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</webMaster>
     <copyright>©2023, All Rights Reserved</copyright>
@@ -27,7 +27,8 @@
         <author>gr33nm0nk2802@gmail.com (gr33nm0nk2802)</author>
         <atom:modified>Thu, 19 Aug 2021 23:40:40 +0530</atom:modified>
         <guid>https://gr33nm0nk2802.github.io/posts/photographer1/</guid>
-        <description>Javascript needs to be enabled to decrypt content This is a fun box where we have to exploit an authenticated file upload vulnerability to get a shell on the machine.</description>
+        <description>The following content is protected.
+Javascript needs to be enabled to decrypt content This is a fun box where we have to exploit an authenticated file upload vulnerability to get a shell on the machine.</description>
         
         <dc:creator>m0nk</dc:creator>
         <media:content url="https://gr33nm0nk2802.github.io/images/vulnhub/photographer1/banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
