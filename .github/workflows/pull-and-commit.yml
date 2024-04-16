@@ -22,8 +22,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: gr33nm0nk2802/myhugoblog
-          path: public  # Specify the sub-folder to pull from
-          ref: main  # Or specify the branch if it's not main
+          path: public  
+          ref: main  
 
       - name: Commit Changes
         run: |
